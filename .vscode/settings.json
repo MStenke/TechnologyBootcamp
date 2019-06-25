@@ -1,7 +1,0 @@
-{
-    "python.pythonPath": "C:\\Python36\\python.exe",
-    "restructuredtext.confPath": "${workspaceFolder}",
-    "restructuredtext.linter.extraArgs": [
-        "--ignore D002, D004"
-    ]
-}
