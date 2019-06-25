@@ -72,7 +72,7 @@ Infrastruktur IP's
      - 10.42.31.38
 
 
-Virtuelle Maschienen
+Virtuelle Maschinen
 ++++++++++++++++++++
 
 Die folgenden VM's wurden bereits auf dem Cluster ausgerollt:
