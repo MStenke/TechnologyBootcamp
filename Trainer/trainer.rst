@@ -8,7 +8,7 @@ Ihre beiden heutigen *Drill Instructor* führen Sie durch den Tag!
 
 .. figure:: images/bootcamp.png
 
-Nutzen Sie die Chance und stellen uns Fragen in den Bauch!
+Nutzen Sie die Chance und stellen Ihre Fragen frei heraus!
 
 .. list-table::
    :widths: 40 40

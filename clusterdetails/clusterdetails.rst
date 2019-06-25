@@ -16,7 +16,7 @@ Cluster Hardware Details
    :header-rows: 1
 
    * - Eigenschaft
-     - Austattung
+     - Ausstattung
    * - **CPU Modell**
      - Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
    * - **CPU Core**
@@ -29,18 +29,18 @@ Cluster Hardware Details
      - 4800 GB pro Node / 19200 GB pro Cluster
 
 .. note::
-  Bedenken Sie bitte, dass diese HPoC Testumgebung zum einen nicht auf der neuesten Hardware besteht und das zum anderen aufgrund der Entfernung entsprechende Latenzen auftreten können. Nichtsdesto trotz lässt sich mit dieser Umgebung sehr gut erfahren wie einfach typische Routine Aufgaben mit einer Nutanix Plattform durchgeführt werden können.
+  Bedenken Sie bitte, dass diese Technology-Bootcamp-Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience durchführen.
 
-Infrastruktur IP's
-+++++++++++++
+Infrastruktur IPs
++++++++++++++++++
 
 .. list-table::
    :widths: 10 10 10 10
    :header-rows: 1
 
-   * - Node
-     - CVM
-     - Hypervisor
+   * - Nodes
+     - CVMs
+     - Hypervisors
      - IPMI
    * - **Position A**
      - 10.42.31.29
@@ -64,8 +64,8 @@ Infrastruktur IP's
    :widths: 20 10
    :header-rows: 1
 
-   * - Dienst
-     - IP Adresse
+   * - Dienste
+     - IP-Adressen
    * - **Virtuelle IP Adresse Cluster**
      - 10.42.31.37
    * - **iSCSI Data Services IP**
@@ -75,14 +75,14 @@ Infrastruktur IP's
 Virtuelle Maschinen
 ++++++++++++++++++++
 
-Die folgenden VM's wurden bereits auf dem Cluster ausgerollt:
+Die folgenden VMs wurden bereits auf dem Cluster ausgerollt:
 
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
 
-   * - VM Name
-     - IP Adresse
+   * - VM-Name
+     - IP-Adresse
      - Beschreibung
    * - **Prism Central**
      - 10.42.31.39
@@ -97,16 +97,16 @@ Die folgenden VM's wurden bereits auf dem Cluster ausgerollt:
      - 10.42.31.46
      - Move VM
 
-Images / VM Vorlagen & ISO's
+Images / VM Vorlagen & ISOs
 ++++++++++++++++++++++++++++
 
-Die folgenden Disk Images & ISO's wurden bereits im Vorfeld auf den Image Service des Clusters hochgeladen, sodass die diese leicht verwendet werden können:
+Die folgenden Disk-Images & ISOs wurden bereits im Vorfeld auf den Clusters hochgeladen, sodass sie via Image Service verwendet werden können:
 
 .. list-table::
    :widths: 20 7 50
    :header-rows: 1
 
-   * - Image Name
+   * - Image-Name
      - Typ
      - Beschreibung
    * - **CentOS7.iso**
@@ -185,7 +185,7 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - nutanix
     - nutanix/4u
 
-Darüber hinaus besitzt das Cluster eine dedizierte Domain Controller VM, welche Active Directory Dienste für die **NTNXLAB.local** Domain bereitstellt. Die Domain wurde mit folgenden Nutzern und Gruppen vorkonfiguriert:
+Darüber hinaus besitzt der Cluster eine dedizierte Domain Controller-VM, welche Active-Directory-Services für die **NTNXLAB.local** Domain bereitstellt. Die Domain wurde mit den folgenden Nutzern und Gruppen vorkonfiguriert:
 
 .. list-table::
   :widths: 20 20 10
