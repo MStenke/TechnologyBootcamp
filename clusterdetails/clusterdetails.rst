@@ -90,12 +90,6 @@ Die folgenden VMs wurden bereits auf dem Cluster ausgerollt:
    * - **AutoDC2**
      - 10.42.31.40
      - ntnxlab.local Domain Controller
-   * - **X-Ray 3.4.0**
-     - 10.42.31.47
-     - X-Ray VM
-   * - **Move**
-     - 10.42.31.46
-     - Move VM
 
 Images / VM Vorlagen & ISOs
 ++++++++++++++++++++++++++++
