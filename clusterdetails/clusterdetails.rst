@@ -7,7 +7,7 @@ Bootcamp Cluster Details
 Cluster Hardware Details
 ++++++++++++++++++++++++
 
-**Hardware Modell: NX-3060-G5**
+**Hardware Modell: NX-3060-G5 (All Flash)**
 
 .. figure:: images/cluster3060g5.png
 
@@ -17,19 +17,19 @@ Cluster Hardware Details
 
    * - Eigenschaft
      - Ausstattung
-   * - **CPU Modell**
+   * - **CPU-Modell**
      - Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
-   * - **CPU Core**
-     - 24 Core pro Node / 96 Core pro Cluster
-   * - **CPU Ghz**
-     - 53 Ghz pro Node / 212 Ghz pro Cluster
+   * - **CPU-Core**
+     - 24 Core je Node | 96 Core im Cluster
+   * - **CPU-Taktrate**
+     - 53 Ghz je Node | 212 Ghz im Cluster
    * - **Arbeitsspeicher**
-     - 256 GB pro Node / 1024 GB pro Cluster
-   * - **SSD**
-     - 4800 GB pro Node / 19200 GB pro Cluster
+     - 256 GB je Node | 1024 GB im Cluster
+   * - **SSD-Kapazität**
+     - 4,8 TB je Node | 19,2 TB GB im Cluster
 
 .. note::
-  Bedenken Sie bitte, dass diese Technology-Bootcamp-Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience durchführen.
+  Bedenken Sie bitte, dass diese Technology-Bootcamp-Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience testen.
 
 Infrastruktur IPs
 +++++++++++++++++
@@ -64,7 +64,7 @@ Infrastruktur IPs
    :widths: 20 10
    :header-rows: 1
 
-   * - Dienste
+   * - Services
      - IP-Adressen
    * - **Virtuelle IP Adresse Cluster**
      - 10.42.31.37
